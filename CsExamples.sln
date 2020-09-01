@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1_WriteLine", "C1_WriteLin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2_ReadLine", "C2_ReadLine\C2_ReadLine.csproj", "{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3_WithAClass", "C2_WithAClass\C3_WithAClass.csproj", "{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
