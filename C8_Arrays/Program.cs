@@ -7,22 +7,22 @@ namespace C8_Arrays
         static void Main(string[] args)
         {
             Console.Write("How many siblings do you have? ");
-            var _numbersOfSiblings = Convert.ToInt32(Console.ReadLine());
+            var _numberOfSiblings = Convert.ToInt32(Console.ReadLine());
 
-            if (_numbersOfSiblings < 1)
+            if (_numberOfSiblings < 1)
                 Console.WriteLine("Okay. That's cool man.");
             else
             {
-                string[] siblings = new string[_numbersOfSiblings];
+                string[] siblings = new string[_numberOfSiblings];
 
-                if (_numbersOfSiblings == 1)
+                if (_numberOfSiblings == 1)
                 {
                     Console.Write("What's your siblings name? ");
                     siblings[0] = Console.ReadLine();
                 }
                 else
                 {
-                    for (var i=0; i < _numbersOfSiblings; i++)
+                    for (var i = 0; i < _numberOfSiblings; i++)
                     {
                         if (i == 0)
                             Console.Write("What's your first siblings name? ");
@@ -30,43 +30,25 @@ namespace C8_Arrays
                             Console.Write("And your next siblings name is? ");
 
                         siblings[i] = Console.ReadLine();
-
                     }
                 }
 
-                if (_numbersOfSiblings == 1)
-                    Console.Write("So correct me if I'm wrong. Your sibling is ");
-                else
-                    Console.Write("And your next siblings are? ");
 
-                foreach(var sibling in siblings)
+                if (_numberOfSiblings == 1)
+                    Console.Write("So correct me if I am wrong. Your sibling is ");
+                else
+                    Console.Write("So correct me if I am wrong. Your siblings are ");
+
+                foreach (var sibling in siblings)
                 {
-                    Console.Write(@"{siblings} ");
+                    Console.Write($"{sibling} ");
                 }
+
             }
+
+
 
         }
     }
 }
 
-
-
-
-    /* Operators (ska vi kunna utantill)
-     
-     = tilldela ett värde
-     += lägg till på befintligt värde
-     -= ta bort från befintligt värde
-     == lika med
-     != inte lika med
-     <  mindre än
-     > större än
-     <= mindre eller lika med
-     >= större eller lika med
-     || eller
-     && och
-     ! inte
-    // one-line comment
-    /* multi-line comment 
-
-    */

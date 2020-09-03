@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace C3_WithAClass
+namespace Test_WithAClass
 {
     class Person
     {
         public string Name { get; set; }
+
         public int Age { get; set; }
+
         public string City { get; set; }
+
+
+
 
     }
 }

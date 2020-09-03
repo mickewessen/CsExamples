@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace C2_WithAClass
+namespace C3_WithAClass
 {
     class Program
     {

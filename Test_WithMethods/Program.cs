@@ -1,6 +1,7 @@
 ﻿using System;
+using Test_WithAClass;
 
-namespace C4_WithMethods
+namespace Test_WithMethods
 {
     class Program
     {
@@ -11,6 +12,7 @@ namespace C4_WithMethods
             person.AskForName();
             person.AskForAge();
             person.AskForCity();
+
         }
     }
 }

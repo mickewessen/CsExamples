@@ -3,23 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1_WriteLine", "C1_WriteLine\C1_WriteLine.csproj", "{EFAAFFB2-ABC9-4E53-8D9B-9C9C93B72196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1_WriteLine", "C1_WriteLine\C1_WriteLine.csproj", "{EFAAFFB2-ABC9-4E53-8D9B-9C9C93B72196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2_ReadLine", "C2_ReadLine\C2_ReadLine.csproj", "{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C2_ReadLine", "C2_ReadLine\C2_ReadLine.csproj", "{647E0CF3-1174-48B3-A8E3-CDE55516F9F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3_WithAClass", "C2_WithAClass\C3_WithAClass.csproj", "{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C3_WithAClass", "C2_WithAClass\C3_WithAClass.csproj", "{A26C846B-BAAE-4C3C-A86B-1F084D9E584C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4_WithMethods", "C4_WithMethods\C4_WithMethods.csproj", "{A4C435E9-7EAC-46DF-A3A9-E0C12DFBB867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4_WithMethods", "C4_WithMethods\C4_WithMethods.csproj", "{A4C435E9-7EAC-46DF-A3A9-E0C12DFBB867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C5_WithAgeCalculation", "C5_WithAgeCalculation\C5_WithAgeCalculation.csproj", "{4E06F349-4CDF-4D62-8F64-DD31F15DE6C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C5_WithAgeCalculation", "C5_WithAgeCalculation\C5_WithAgeCalculation.csproj", "{4E06F349-4CDF-4D62-8F64-DD31F15DE6C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_GettersAndSetters", "C6_GettersAndSetters\C6_GettersAndSetters.csproj", "{4DFEEAF9-A485-40F3-AED7-B6E186F429FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C6_GettersAndSetters", "C6_GettersAndSetters\C6_GettersAndSetters.csproj", "{4DFEEAF9-A485-40F3-AED7-B6E186F429FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{13119EC0-EE8B-42BD-BDE6-62F6B68DC9C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{13119EC0-EE8B-42BD-BDE6-62F6B68DC9C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{3A6268FF-22C4-404D-B930-9BED70C3A841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{3A6268FF-22C4-404D-B930-9BED70C3A841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C9_Lists", "C9_Lists\C9_Lists.csproj", "{2393F593-52C8-447A-AE34-66C34C843BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C9_Lists", "C9_Lists\C9_Lists.csproj", "{2393F593-52C8-447A-AE34-66C34C843BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_WithAClass", "C3_Test_WithAClass\Test_WithAClass.csproj", "{AB3D067B-39D0-4E49-8B81-CCE2EC8F1844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_WithMethods", "Test_WithMethods\Test_WithMethods.csproj", "{557E289C-31D6-4C51-B72C-F388F67ED6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Arrays", "Test_Arrays\Test_Arrays.csproj", "{5A9761CA-B2C5-4174-8C19-89341DD566FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{2393F593-52C8-447A-AE34-66C34C843BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2393F593-52C8-447A-AE34-66C34C843BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2393F593-52C8-447A-AE34-66C34C843BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3D067B-39D0-4E49-8B81-CCE2EC8F1844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3D067B-39D0-4E49-8B81-CCE2EC8F1844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3D067B-39D0-4E49-8B81-CCE2EC8F1844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3D067B-39D0-4E49-8B81-CCE2EC8F1844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557E289C-31D6-4C51-B72C-F388F67ED6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557E289C-31D6-4C51-B72C-F388F67ED6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557E289C-31D6-4C51-B72C-F388F67ED6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557E289C-31D6-4C51-B72C-F388F67ED6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9761CA-B2C5-4174-8C19-89341DD566FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9761CA-B2C5-4174-8C19-89341DD566FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9761CA-B2C5-4174-8C19-89341DD566FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9761CA-B2C5-4174-8C19-89341DD566FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

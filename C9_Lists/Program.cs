@@ -8,8 +8,8 @@ namespace C9_Lists
         static void Main(string[] args)
         {
             bool _hasSiblings;
-            
-            Console.Write("Do you have any siblings (yes/no) ")
+
+            Console.Write("Do you have any siblings (yes/no) ");
             var _siblingResponse = Console.ReadLine();
 
             switch (_siblingResponse.ToLower())
@@ -27,10 +27,10 @@ namespace C9_Lists
                     break;
             }
 
-            if (!_hasSiblings == false)
-                Console.WriteLine("Okay, that's cool man.")
-            else
+            if (!_hasSiblings)
+                Console.WriteLine("Okay, that's cool man.");
 
+            else
             {
                 Console.Write("Sweet. How many siblings do you have? ");
                 int _numberOfSibling = Convert.ToInt32(Console.ReadLine());
@@ -63,13 +63,13 @@ namespace C9_Lists
                     siblings.RemoveAt(index);
                     siblings.Insert(0, _oldest);
 
-                    Console.Write($"Ok so your siblings names are");
-                    foreach(var sibling in siblings)
+                    Console.Write($"Ok so your siblings names are ");
+                    foreach (var sibling in siblings)
                     {
                         Console.Write($"{sibling} ");
                     }
                 }
-                    
+
 
             }
         }
