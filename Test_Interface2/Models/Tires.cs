@@ -5,15 +5,15 @@ using System.Text;
 
 namespace C13_Interfaces_2.Models
 {
-    class License : ILicense
+    class Tires : ILicense
     {
 
         public string Name { get; set; }
         public int NumberOfLicenses { get; set; } = 1;
-        public string Id { get; set; }
+        public string ArticleNo { get; set; }
         public string Description { get; set; }
 
-        public bool OrderCompleted { get; private set; }
+        public bool OrderCompleted { get; set; }
 
         public void ShippingItem()
         {
