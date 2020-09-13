@@ -18,6 +18,9 @@
         <DataTemplate x:Name="MessageViewTemplate" DataType="{x:Type models:MessageModel}">
             <views:MessageViewModel DataContext="{Binding}" />
         </DataTemplate>
+        <DataTemplate x:Name="TasksViewTemplate" DataType="{x:Type models:TasksModel}">
+            <views:TasksViewModel DataContext="{Binding}" />
+        </DataTemplate>
     </Window.Resources>
 
 
