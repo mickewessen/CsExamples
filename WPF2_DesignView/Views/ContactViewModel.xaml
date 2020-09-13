@@ -11,13 +11,9 @@
             <ColumnDefinition Width="0.7*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-
-        <StackPanel Grid.Column="0">
-            <Button Content="Knapp 1" />
-            <Button Content="Knapp 2" />
-            <Button Content="Knapp 3" />
-            <Button Content="Knapp 4" />
-        </StackPanel>
+        <Grid Background="#FFABC2F2">
+            <TextBlock HorizontalAlignment="Left" Margin="20,20,0,0" Text="Contacts" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="16"/>
+        </Grid>
 
         <TextBlock Grid.Column="1" Margin="20" Text="information visas här..." />
 

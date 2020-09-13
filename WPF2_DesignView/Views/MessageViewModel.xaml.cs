@@ -16,7 +16,7 @@ namespace WPF2_DesignView.Views
     /// <summary>
     /// Interaction logic for MessageViewModel.xaml
     /// </summary>
-    public partial class MessageViewModel : UserControl
+    public partial class MessageViewModel
     {
         public MessageViewModel()
         {

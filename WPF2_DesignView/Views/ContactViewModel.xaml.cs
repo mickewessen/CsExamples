@@ -16,7 +16,7 @@ namespace WPF2_DesignView.Views
     /// <summary>
     /// Interaction logic for ContactViewModel.xaml
     /// </summary>
-    public partial class ContactViewModel : UserControl
+    public partial class ContactViewModel
     {
         public ContactViewModel()
         {

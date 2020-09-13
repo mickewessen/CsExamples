@@ -19,29 +19,30 @@
             <views:MessageViewModel DataContext="{Binding}" />
         </DataTemplate>
     </Window.Resources>
-    
-    
-    
-    
+
+
+
+
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="171*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50" />
             <ColumnDefinition Width="300" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
-            <Grid.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFC083FF"/>
-                    <GradientStop Color="#FFA54DFF" Offset="1"/>
-                </LinearGradientBrush>
-            </Grid.Background>
-        </Grid>
+        <Grid Grid.Column="0" Background="#FF83A0FF" Grid.RowSpan="2"/>
 
-        <Grid x:Name="mainMenu_Grid" Grid.Column="1" Background="#FFC083FF">
-            <StackPanel>
-                <Button x:Name="btnContacts" Click="btnContacts_Click"  Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+        <Grid x:Name="mainMenu_Grid" Grid.Column="1" Background="#FFA4BAFF" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="137*"/>
+                <RowDefinition Height="39*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.RowSpan="2">
+                <Button x:Name="btnContacts" Click="btnContacts_Click"  Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left" Margin="0,400,0,0">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE716;" FontSize="18" />
                         <TextBlock Margin="15,0,0,0" Text="Contacts" />
@@ -54,10 +55,38 @@
                         <TextBlock Margin="15,0,0,0" Text="Messages" />
                     </StackPanel>
                 </Button>
+
+                <Button x:Name="Calender" Click="btnCalender_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE163;" FontSize="18" />
+                        <TextBlock Margin="15,0,0,0" Text="Calender" />
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="btnTasks" Click="btnTasks_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE141;" FontSize="18" />
+                        <TextBlock Margin="15,0,0,0" Text="Tasks" />
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="btnSettings" Click="btnSettings_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE115;" FontSize="18" />
+                        <TextBlock Margin="15,0,0,0" Text="Settings" />
+                    </StackPanel>
+                </Button>
+
             </StackPanel>
+            <Ellipse x:Name="Portrait" HorizontalAlignment="Center" Height="150" Margin="0,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="150">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/Kermit_the_Frog.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
         </Grid>
 
-        <ContentControl Grid.Column="2" Content="{Binding}" />
+        <ContentControl Grid.Column="2" Content="{Binding}" Background="#FF5C5BD1" Margin="0,0,0,10" Grid.RowSpan="2" />
+        <TextBlock x:Name="Name" Grid.Column="1" HorizontalAlignment="Center" Margin="0,183,0,0" Grid.Row="1" Text="Wessén, Michael" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" Foreground="#FFF8F4F4"/>
 
     </Grid>
 </Window>
